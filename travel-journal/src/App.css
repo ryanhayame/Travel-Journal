@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.title {
+  margin-left: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.card-section {
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  margin-top: 23px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+  margin-top: 22px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+.card-info-box {
+  margin-left: 19px;
+  padding-top: 15px;
+}
+
+#orange {
+  width: 7px;
+  height: 9.55px;
+  color: #F55A5A;
+  margin-bottom: 0;
+}
+
+.location {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.google-maps{
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color:#918E9B;
+}
+
+.place {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.date {
+  margin-top: 14px;
+  color: #2B283A;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-bottom: 0;
+}
+
+.desc {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #2B283A;
+}
+
+.card-section > .card + .card {
+  padding: 0;
+  border-top: 1px solid #F5F5F5;
+}
+
