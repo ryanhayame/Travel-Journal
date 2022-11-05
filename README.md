@@ -6,4 +6,4 @@
 ![](/screenshots/small.png)
 
 #### Window resized to be larger
-![](/screenshots/small.png)
+![](/screenshots/big.png)
